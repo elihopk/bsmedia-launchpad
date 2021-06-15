@@ -31,7 +31,7 @@ class Header extends React.Component {
             return response.json();
         })
         .then(function(json) {
-            if (json.data.username != "") {
+            if (json.data.username !== "") {
                 adminLoggedIn();
                 console.info("Authenticated");
             } else if (redir) {
