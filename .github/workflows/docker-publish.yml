@@ -22,6 +22,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: |
-            docker.pkg.github.com/${{ github.repository }}/bsmedialaunchpad:${{ github.sha }}
-            docker.pkg.github.com/${{ github.repository }}/bsmedialaunchpad:${{ github.ref }}
+          tags: docker.pkg.github.com/${{ github.repository }}/bsmedialaunchpad:latest
