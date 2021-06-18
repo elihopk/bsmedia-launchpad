@@ -23,9 +23,9 @@ class ServiceCard extends React.Component {
         }
 
         return (
-            <div class="flex-shrink flex-grow-0 m-8 pr-8 shadow-lg transition-all hover:pr-10 pl-8 hover:pl-10 pt-2 hover:pt-4 pb-4 hover:pb-6 rounded-xl border-2 border-gray-900 bg-gray-700">
+            <div class="flex-shrink flex-grow-0 m-8 pr-8 shadow-lg transition-all hover:pr-10 pl-6 hover:pl-8 pt-2 hover:pt-4 pb-4 hover:pb-6 rounded-xl border-2 border-gray-900 bg-gray-700">
                 <div class="flex items-center">
-                    <img class="max-h-16 max-w-16 m-4" src={this.props.svcLogo} alt={this.props.svcName} />
+                    <img class="max-h-16 max-w-16 ml-2 mr-4 mt-4 mb-4" src={this.props.svcLogo} alt={this.props.svcName} />
                     <h3 class="text-3xl font-bold text-yellow-300">{this.props.svcName}</h3>
                 </div>
                 <div>
